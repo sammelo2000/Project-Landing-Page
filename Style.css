@@ -1,0 +1,22 @@
+.FirstSection {
+    border: 1px solid red;
+}
+
+.Header {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.Container {
+    border: 1px solid red;
+    display: flex;
+}
+
+.FirstUl {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
