@@ -1,22 +1,75 @@
-.FirstSection {
-    border: 1px solid red;
+.Header {
+    border: 2px solid red;
+    display: flex;
+    padding: 1px;
+    align-items: center;
+    justify-content: space-between;
+    
+    
 }
 
-.Header {
+.HeaderLogo {
     border: 1px solid red;
+    margin: 0;
+    font-size: 24px;
+}
+
+.HeaderLinks {
+    border: 1px solid red;
+    list-style: none;
     display: flex;
-    justify-content: space-between;
+    margin: 0;
+    gap:16px;
+    font-size: 18px;
+}
+
+.FirstSectionContainer {
+    border: 1px solid black;
+    display: flex;
     align-items: center;
     
 }
 
-.Container {
-    border: 1px solid red;
+.Hero {
+    border:1px solid red;
+    list-style: none;
     display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 500px;
 }
 
-.FirstUl {
-    display: flex;
-    list-style: none;
-    gap: 10px;
+.HeroMainText {
+    font-size: 48px;
+    width: 300px;
+}
+
+.HeroSecondaryText {
+    font-size: 18px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.HeroSignUp {
+    
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    
+    
+}
+
+.Image {
+    border: 1px solid red;
+    margin: 0;
+    width: 500px;
+    height: 100px;
+    flex: 1;
+    
+}
+ 
+img {
+    width: 100%;
+    height: 100%;
 }
