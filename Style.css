@@ -1,9 +1,16 @@
+.FirstSection {
+    
+    border: 4px solid  blue;
+    padding: 50px;
+}
+
 .Header {
     border: 2px solid red;
     display: flex;
     padding: 1px;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 100px;
     
     
 }
@@ -62,7 +69,7 @@
     
 }
 
-.Image {
+.FirstSectionImage {
     border: 1px solid red;
     margin: 0;
     width: 50%;
@@ -73,4 +80,27 @@
     width: 100%;
     height: 100%;
     
+ }
+
+ .SecondSection {
+    border: 4px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .ContainerPics {
+    border: 1px solid red;
+    display: flex;
+    padding: 20px;
+ }
+
+ .InnerContainer {
+    border: 1px solid red;
+ }
+
+ .InnerContainerPics {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
  }
