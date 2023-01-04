@@ -116,9 +116,7 @@ body {
     gap: 15px;
  }
 
- .InnerContainer {
-    
- }
+
 
  .InnerContainerPics {
     width: 100%;
@@ -242,5 +240,5 @@ body {
   .Surprise {
     text-decoration: none;
     color: white
-    +
+    
   }
